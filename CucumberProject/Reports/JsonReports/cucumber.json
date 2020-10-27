@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-22T10:12:12.968Z",
-        "line": 11,
+        "start_timestamp": "2020-10-23T07:00:33.806Z",
+        "line": 3,
         "name": "Test the valid login",
         "description": "",
-        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12310000000,
+              "duration": 14670000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,85 @@
           },
           {
             "result": {
-              "duration": 333000000,
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters credentails using DataTable",
+            "match": {
+              "location": "com.stepdefinition.LoginSteps.user_enters_credentails_using_DataTable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6820000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefinition.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 783000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on home page",
+            "match": {
+              "location": "com.stepdefinition.LoginSteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/DataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-23T07:00:56.525Z",
+        "line": 11,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22329000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "com.stepdefinition.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 5589000000,
+              "duration": 6282000000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 382000000,
+              "duration": 307000000,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +150,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-22T10:12:31.718Z",
+        "start_timestamp": "2020-10-23T07:01:25.747Z",
         "line": 12,
         "name": "Test the valid login",
         "description": "",
@@ -82,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10548000000,
+              "duration": 12835000000,
               "status": "passed"
             },
             "line": 4,
@@ -94,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 390000000,
+              "duration": 361000000,
               "status": "passed"
             },
             "line": 5,
@@ -116,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1149000000,
+              "duration": 1081000000,
               "status": "passed"
             },
             "line": 6,
@@ -128,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 369000000,
+              "duration": 345000000,
               "status": "passed"
             },
             "line": 7,

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="31.742">
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="18.734">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="67.064">
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="22.707">
+<system-out><![CDATA[Given user is on loginPage..................................................passed
+When user enters credentails using DataTable................................passed
+And click on login button...................................................passed
+Then user should land on home page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="29.22">
 <system-out><![CDATA[Given user is on loginPage..................................................passed
 When user enters admin and admin123.........................................passed
 And click on login button...................................................passed
 Then user should land on home page..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login 2" time="12.464">
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login 2" time="14.625">
 <system-out><![CDATA[Given user is on loginPage..................................................passed
 When user enters admin1 and admin1234.......................................passed
 And click on login button...................................................passed
